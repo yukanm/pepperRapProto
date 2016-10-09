@@ -1,0 +1,12 @@
+topic: ~verse2()
+language: jpj
+u:(e:onStart) \vct=135\ \rspd=130\ 汐留じゃねぇ フランス ウまれ、さながら\rspd=80\パリジェンヌ、\rspd=100\ それでもけして\pau=0\\rspd=80\ならない天狗。。\rspd=110\褒められる 理想の\pau=0\\rspd=80\お辞儀の角度、\rspd=110\そんな俺このバトル必ず\rspd=80\勝つぞ。
+$onStopped=1
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

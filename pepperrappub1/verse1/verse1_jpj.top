@@ -1,0 +1,12 @@
+topic: ~verse1()
+language: jpj
+u:(e:onStart) \vct=135\ \rspd=110\ ペッパあぁが繰り出す\pau=0\このやばい\rspd=70\ライむ。\rspd=110\これいまだにプろと\rspd=70\タイプ。\rspd=170\しかし\pau=0\もはや\rspd=110\ある意味\rspd=140\勘\rspd=70\製品？\rspd=110\見た事のない\rspd=130\バトルを\rspd=120\ここに\rspd=70\解禁。。\rspd=110\接客\rspd=150\ローボッ\pau=100\\rspd=110\受付\rspd=165\ローボッ\rspd=110\そんなん\rspd=180\だけじゃない\rspd=110\ロボが\rspd=80\登場？\rspd=140\さあ、\pau=500\君にも\rspd=80\出切るかナッ、\rspd=170\それトも\rspd=150\ただの\pau=0\きゅーあーる、\pau=0\コード、\pau=0\\rspd=80\リーだあ！！！
+$onStopped=1
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
